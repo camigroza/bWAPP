@@ -71,7 +71,7 @@ if(isset($_POST["form_security_level"]) && isset($_POST["security_level"]))
     if($evil_bee == 1)
     {
 
-        setcookie("security_level", "666", time()+60*60*24*365, "/", "", false, false);
+        setcookie("security_level", "666", time()+60*60*24*365, "/", "", true, false);
 
     }
     
